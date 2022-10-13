@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: app1-service
+spec:
+  selector:
+    app: nginx-app-1
+  ports:
+    - port: 8080
